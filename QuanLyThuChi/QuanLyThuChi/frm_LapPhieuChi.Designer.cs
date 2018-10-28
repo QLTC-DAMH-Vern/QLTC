@@ -97,7 +97,7 @@
             this.simpleButton2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.simpleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.simpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.edittttt;
+            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.Technical_Support_512__1_;
             this.simpleButton2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
             this.simpleButton2.Location = new System.Drawing.Point(89, 13);
             this.simpleButton2.LookAndFeel.SkinName = "Seven Classic";
@@ -141,7 +141,7 @@
             this.groupControl2.Controls.Add(this.dateEdit1);
             this.groupControl2.Controls.Add(this.label2);
             this.groupControl2.Controls.Add(this.label1);
-            this.groupControl2.Location = new System.Drawing.Point(240, 2);
+            this.groupControl2.Location = new System.Drawing.Point(262, 2);
             this.groupControl2.Margin = new System.Windows.Forms.Padding(4);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(279, 100);

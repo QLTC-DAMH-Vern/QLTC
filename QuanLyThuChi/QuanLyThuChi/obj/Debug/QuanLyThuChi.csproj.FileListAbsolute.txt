@@ -128,8 +128,10 @@ E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\bin\De
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csprojResolveAssemblyReference.cache
+E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.fmQL_NguoiDung.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmDkKhoanChi.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmDoiMK.resources
+E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmQL_NguoiDung.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_CauHinh.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyKhoanThu.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_girddkkhoanchi.resources
@@ -146,6 +148,35 @@ E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\De
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_QL_NguoiDung.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
 E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
-E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_QL_NhomNguoiDung.resources
-E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmQL_NguoiDung_NhomNguoiDung.resources
-E:\STUDY\DH_Nam4\LT_Win_NC\DAMH_LTWin_NC_Images\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_PhanQuyen.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csprojResolveAssemblyReference.cache
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmDkKhoanChi.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frmDoiMK.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_CauHinh.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyKhoanThu.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_girddkkhoanchi.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_LapPhieuChi.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_LapPhieuThu.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_PhieuThu.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_QL_NguoiDung.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.LogIn.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.MainForm.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Page_DKkhoanthu.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Properties.Resources.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.XtraForm1.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.Cache
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe.licenses
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\BLL.dll
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\BLL.pdb
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\DAL.dll
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\DAL.pdb
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyKhoanChi.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.DangKyHangMucChi.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyHangMucThu.resources
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\LinQ.dll
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\bin\Debug\LinQ.pdb
+F:\DAMH_LTWNC\New folder (2)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyTienTe.resources

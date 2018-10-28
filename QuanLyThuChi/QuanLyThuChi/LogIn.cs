@@ -79,6 +79,7 @@ namespace QuanLyThuChi
             else if (result == 1)
             {
                 MessageBox.Show("Tài khoản bị khóa");
+                
                 return;
             }
             MainForm frm = new MainForm();
