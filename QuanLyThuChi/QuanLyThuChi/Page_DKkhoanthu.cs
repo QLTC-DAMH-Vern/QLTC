@@ -133,7 +133,7 @@ namespace QuanLyThuChi
             // 
             // simpleButton2
             // 
-            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources._062_512;
+            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.edittttt;
             this.simpleButton2.Location = new System.Drawing.Point(110, 18);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(80, 36);

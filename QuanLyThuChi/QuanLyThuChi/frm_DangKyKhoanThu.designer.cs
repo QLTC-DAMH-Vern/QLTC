@@ -104,7 +104,7 @@
             // 
             // simpleButton2
             // 
-            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.error_512;
+            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.exit11;
             this.simpleButton2.Location = new System.Drawing.Point(394, 90);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(92, 46);

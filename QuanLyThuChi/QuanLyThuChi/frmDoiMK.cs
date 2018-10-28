@@ -26,20 +26,7 @@ namespace QuanLyThuChi
             txt_TenDN.Text = LogIn.GetUserName.userNAME;
         }
 
-        private void btn_Thoát_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btn_nhaplai_Click(object sender, EventArgs e)
-        {
-            txt_MKcu.Clear();
-            txt_MKmoi.Clear();
-            txt_xacnhanMK.Clear();
-            txt_MKcu.Focus();
-        }
-
-        private void btn_Luu_Click(object sender, EventArgs e)
+        private void btn_Luu_Click_1(object sender, EventArgs e)
         {
             if (txt_MKcu.Text == "" || txt_MKmoi.Text == "" || txt_xacnhanMK.Text == "")
                 MessageBox.Show("Không được để trống thông tin!!");
@@ -52,13 +39,26 @@ namespace QuanLyThuChi
                     CauHinh.Doi_MK(txt_TenDN.Text, txt_MKmoi.Text);
                     MessageBox.Show("Thành công!!!");
                     Program.pass = txt_MKmoi.Text;
-                    btn_nhaplai_Click(sender, e);
+                    btn_nhaplai_Click_1(sender, e);
                     return;
                 }
             }
         }
 
-        private void btn_showPass_Click(object sender, EventArgs e)
+        private void btn_nhaplai_Click_1(object sender, EventArgs e)
+        {
+            txt_MKcu.Clear();
+            txt_MKmoi.Clear();
+            txt_xacnhanMK.Clear();
+            txt_MKcu.Focus();
+        }
+
+        private void btn_Thoát_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_showPass_Click_1(object sender, EventArgs e)
         {
             if (txt_MKcu.UseSystemPasswordChar == true)
             {
@@ -72,7 +72,7 @@ namespace QuanLyThuChi
             }
         }
 
-        private void simpleButton1_Click(object sender, EventArgs e)
+        private void simpleButton1_Click_1(object sender, EventArgs e)
         {
             if (txt_MKmoi.UseSystemPasswordChar == true)
             {
@@ -86,7 +86,7 @@ namespace QuanLyThuChi
             }
         }
 
-        private void simpleButton2_Click(object sender, EventArgs e)
+        private void simpleButton2_Click_1(object sender, EventArgs e)
         {
             if (txt_xacnhanMK.UseSystemPasswordChar == true)
             {

@@ -13,6 +13,7 @@ namespace QuanLyThuChi
 {
     public partial class frm_QL_NguoiDung : DevExpress.XtraEditors.XtraForm
     {
+        
         private PictureBox pictureBox1;
         private QLTC_DataSet qLTC_DataSet;
         private BindingSource qL_NGUOI_DUNGBindingSource;
@@ -37,8 +38,13 @@ namespace QuanLyThuChi
         private TextEdit txt_tenDN;
         private TextEdit txt_MK;
         private CheckEdit hd_check;
+        private SimpleButton simpleButton5;
+        private SimpleButton btn_sua;
+        private SimpleButton btn_xoa;
+        private SimpleButton btn_Luu;
+        private SimpleButton btn_them;
         private GroupBox groupBox1;
-    
+
         public frm_QL_NguoiDung()
         {
             InitializeComponent();
@@ -47,54 +53,89 @@ namespace QuanLyThuChi
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_QL_NguoiDung));
             System.Windows.Forms.Label mANGUOIDUNGLabel;
             System.Windows.Forms.Label mATKHAULabel;
             System.Windows.Forms.Label hOATDONGLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_QL_NguoiDung));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.qLTC_DataSet = new QuanLyThuChi.QLTC_DataSet();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_sua = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_xoa = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_Luu = new DevExpress.XtraEditors.SimpleButton();
+            this.btn_them = new DevExpress.XtraEditors.SimpleButton();
+            this.qL_NGUOI_DUNGGridControl = new DevExpress.XtraGrid.GridControl();
             this.qL_NGUOI_DUNGBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLTC_DataSet = new QuanLyThuChi.QLTC_DataSet();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.txt_tenDN = new DevExpress.XtraEditors.TextEdit();
+            this.txt_MK = new DevExpress.XtraEditors.TextEdit();
+            this.hd_check = new DevExpress.XtraEditors.CheckEdit();
             this.qL_NGUOI_DUNGTableAdapter = new QuanLyThuChi.QLTC_DataSetTableAdapters.QL_NGUOI_DUNGTableAdapter();
             this.tableAdapterManager = new QuanLyThuChi.QLTC_DataSetTableAdapters.TableAdapterManager();
             this.qL_NGUOI_DUNGBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.qL_NGUOI_DUNGBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.txt_tenDN = new DevExpress.XtraEditors.TextEdit();
-            this.txt_MK = new DevExpress.XtraEditors.TextEdit();
-            this.hd_check = new DevExpress.XtraEditors.CheckEdit();
-            this.qL_NGUOI_DUNGGridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             mANGUOIDUNGLabel = new System.Windows.Forms.Label();
             mATKHAULabel = new System.Windows.Forms.Label();
             hOATDONGLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTC_DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGGridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingNavigator)).BeginInit();
-            this.qL_NGUOI_DUNGBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTC_DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tenDN.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_MK.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hd_check.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingNavigator)).BeginInit();
+            this.qL_NGUOI_DUNGBindingNavigator.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // mANGUOIDUNGLabel
+            // 
+            mANGUOIDUNGLabel.AutoSize = true;
+            mANGUOIDUNGLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mANGUOIDUNGLabel.Location = new System.Drawing.Point(360, 44);
+            mANGUOIDUNGLabel.Name = "mANGUOIDUNGLabel";
+            mANGUOIDUNGLabel.Size = new System.Drawing.Size(103, 16);
+            mANGUOIDUNGLabel.TabIndex = 16;
+            mANGUOIDUNGLabel.Text = "Tên đăng nhập";
+            // 
+            // mATKHAULabel
+            // 
+            mATKHAULabel.AutoSize = true;
+            mATKHAULabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mATKHAULabel.Location = new System.Drawing.Point(360, 70);
+            mATKHAULabel.Name = "mATKHAULabel";
+            mATKHAULabel.Size = new System.Drawing.Size(68, 16);
+            mATKHAULabel.TabIndex = 18;
+            mATKHAULabel.Text = "Mật khẩu";
+            // 
+            // hOATDONGLabel
+            // 
+            hOATDONGLabel.AutoSize = true;
+            hOATDONGLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            hOATDONGLabel.Location = new System.Drawing.Point(360, 96);
+            hOATDONGLabel.Name = "hOATDONGLabel";
+            hOATDONGLabel.Size = new System.Drawing.Size(75, 16);
+            hOATDONGLabel.TabIndex = 20;
+            hOATDONGLabel.Text = "Hoạt động";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::QuanLyThuChi.Properties.Resources.mem___Copy;
-            this.pictureBox1.Location = new System.Drawing.Point(117, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(210, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 126);
             this.pictureBox1.TabIndex = 16;
@@ -103,6 +144,11 @@ namespace QuanLyThuChi
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.groupBox1.Controls.Add(this.simpleButton5);
+            this.groupBox1.Controls.Add(this.btn_sua);
+            this.groupBox1.Controls.Add(this.btn_xoa);
+            this.groupBox1.Controls.Add(this.btn_Luu);
+            this.groupBox1.Controls.Add(this.btn_them);
             this.groupBox1.Controls.Add(this.qL_NGUOI_DUNGGridControl);
             this.groupBox1.Controls.Add(mANGUOIDUNGLabel);
             this.groupBox1.Controls.Add(this.txt_tenDN);
@@ -111,21 +157,111 @@ namespace QuanLyThuChi
             this.groupBox1.Controls.Add(hOATDONGLabel);
             this.groupBox1.Controls.Add(this.hd_check);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Location = new System.Drawing.Point(257, 28);
+            this.groupBox1.Location = new System.Drawing.Point(303, 28);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(690, 454);
+            this.groupBox1.Size = new System.Drawing.Size(803, 454);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
+            // 
+            // simpleButton5
+            // 
+            this.simpleButton5.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.exit1;
+            this.simpleButton5.Location = new System.Drawing.Point(15, 397);
+            this.simpleButton5.Name = "simpleButton5";
+            this.simpleButton5.Size = new System.Drawing.Size(75, 40);
+            this.simpleButton5.TabIndex = 22;
+            this.simpleButton5.Text = "Thoát";
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.revert;
+            this.btn_sua.Location = new System.Drawing.Point(15, 338);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(75, 40);
+            this.btn_sua.TabIndex = 22;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources._010_trash_2_128;
+            this.btn_xoa.Location = new System.Drawing.Point(15, 276);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(75, 40);
+            this.btn_xoa.TabIndex = 22;
+            this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
+            // 
+            // btn_Luu
+            // 
+            this.btn_Luu.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.save1;
+            this.btn_Luu.Location = new System.Drawing.Point(15, 215);
+            this.btn_Luu.Name = "btn_Luu";
+            this.btn_Luu.Size = new System.Drawing.Size(75, 40);
+            this.btn_Luu.TabIndex = 22;
+            this.btn_Luu.Text = "Lưu";
+            this.btn_Luu.Click += new System.EventHandler(this.btn_Luu_Click);
+            // 
+            // btn_them
+            // 
+            this.btn_them.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.them;
+            this.btn_them.Location = new System.Drawing.Point(15, 152);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(75, 40);
+            this.btn_them.TabIndex = 22;
+            this.btn_them.Text = "Thêm";
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
+            // 
+            // qL_NGUOI_DUNGGridControl
+            // 
+            this.qL_NGUOI_DUNGGridControl.DataSource = this.qL_NGUOI_DUNGBindingSource;
+            this.qL_NGUOI_DUNGGridControl.Location = new System.Drawing.Point(129, 152);
+            this.qL_NGUOI_DUNGGridControl.MainView = this.gridView1;
+            this.qL_NGUOI_DUNGGridControl.Name = "qL_NGUOI_DUNGGridControl";
+            this.qL_NGUOI_DUNGGridControl.Size = new System.Drawing.Size(665, 285);
+            this.qL_NGUOI_DUNGGridControl.TabIndex = 21;
+            this.qL_NGUOI_DUNGGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // qL_NGUOI_DUNGBindingSource
+            // 
+            this.qL_NGUOI_DUNGBindingSource.DataMember = "QL_NGUOI_DUNG";
+            this.qL_NGUOI_DUNGBindingSource.DataSource = this.qLTC_DataSet;
             // 
             // qLTC_DataSet
             // 
             this.qLTC_DataSet.DataSetName = "QLTC_DataSet";
             this.qLTC_DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // qL_NGUOI_DUNGBindingSource
+            // gridView1
             // 
-            this.qL_NGUOI_DUNGBindingSource.DataMember = "QL_NGUOI_DUNG";
-            this.qL_NGUOI_DUNGBindingSource.DataSource = this.qLTC_DataSet;
+            this.gridView1.GridControl = this.qL_NGUOI_DUNGGridControl;
+            this.gridView1.Name = "gridView1";
+            // 
+            // txt_tenDN
+            // 
+            this.txt_tenDN.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "MANGUOIDUNG", true));
+            this.txt_tenDN.Location = new System.Drawing.Point(471, 43);
+            this.txt_tenDN.Name = "txt_tenDN";
+            this.txt_tenDN.Size = new System.Drawing.Size(209, 20);
+            this.txt_tenDN.TabIndex = 17;
+            // 
+            // txt_MK
+            // 
+            this.txt_MK.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "MATKHAU", true));
+            this.txt_MK.Location = new System.Drawing.Point(471, 69);
+            this.txt_MK.Name = "txt_MK";
+            this.txt_MK.Size = new System.Drawing.Size(209, 20);
+            this.txt_MK.TabIndex = 19;
+            // 
+            // hd_check
+            // 
+            this.hd_check.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "HOATDONG", true));
+            this.hd_check.Location = new System.Drawing.Point(471, 95);
+            this.hd_check.Name = "hd_check";
+            this.hd_check.Properties.Caption = "Có hoạt động?";
+            this.hd_check.Size = new System.Drawing.Size(209, 19);
+            this.hd_check.TabIndex = 21;
             // 
             // qL_NGUOI_DUNGTableAdapter
             // 
@@ -151,6 +287,7 @@ namespace QuanLyThuChi
             // qL_NGUOI_DUNGBindingNavigator
             // 
             this.qL_NGUOI_DUNGBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.qL_NGUOI_DUNGBindingNavigator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.qL_NGUOI_DUNGBindingNavigator.BindingSource = this.qL_NGUOI_DUNGBindingSource;
             this.qL_NGUOI_DUNGBindingNavigator.CountItem = this.bindingNavigatorCountItem;
             this.qL_NGUOI_DUNGBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
@@ -174,9 +311,34 @@ namespace QuanLyThuChi
             this.qL_NGUOI_DUNGBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.qL_NGUOI_DUNGBindingNavigator.Name = "qL_NGUOI_DUNGBindingNavigator";
             this.qL_NGUOI_DUNGBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.qL_NGUOI_DUNGBindingNavigator.Size = new System.Drawing.Size(959, 25);
+            this.qL_NGUOI_DUNGBindingNavigator.Size = new System.Drawing.Size(1118, 25);
             this.qL_NGUOI_DUNGBindingNavigator.TabIndex = 18;
             this.qL_NGUOI_DUNGBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = global::QuanLyThuChi.Properties.Resources.add;
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = global::QuanLyThuChi.Properties.Resources.exit11;
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -210,16 +372,9 @@ namespace QuanLyThuChi
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -242,26 +397,8 @@ namespace QuanLyThuChi
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // qL_NGUOI_DUNGBindingNavigatorSaveItem
             // 
@@ -272,80 +409,9 @@ namespace QuanLyThuChi
             this.qL_NGUOI_DUNGBindingNavigatorSaveItem.Text = "Save Data";
             this.qL_NGUOI_DUNGBindingNavigatorSaveItem.Click += new System.EventHandler(this.qL_NGUOI_DUNGBindingNavigatorSaveItem_Click);
             // 
-            // mANGUOIDUNGLabel
-            // 
-            mANGUOIDUNGLabel.AutoSize = true;
-            mANGUOIDUNGLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            mANGUOIDUNGLabel.Location = new System.Drawing.Point(267, 47);
-            mANGUOIDUNGLabel.Name = "mANGUOIDUNGLabel";
-            mANGUOIDUNGLabel.Size = new System.Drawing.Size(103, 16);
-            mANGUOIDUNGLabel.TabIndex = 16;
-            mANGUOIDUNGLabel.Text = "Tên đăng nhập";
-            // 
-            // txt_tenDN
-            // 
-            this.txt_tenDN.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "MANGUOIDUNG", true));
-            this.txt_tenDN.Location = new System.Drawing.Point(378, 46);
-            this.txt_tenDN.Name = "txt_tenDN";
-            this.txt_tenDN.Size = new System.Drawing.Size(209, 20);
-            this.txt_tenDN.TabIndex = 17;
-            // 
-            // mATKHAULabel
-            // 
-            mATKHAULabel.AutoSize = true;
-            mATKHAULabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            mATKHAULabel.Location = new System.Drawing.Point(267, 73);
-            mATKHAULabel.Name = "mATKHAULabel";
-            mATKHAULabel.Size = new System.Drawing.Size(68, 16);
-            mATKHAULabel.TabIndex = 18;
-            mATKHAULabel.Text = "Mật khẩu";
-            // 
-            // txt_MK
-            // 
-            this.txt_MK.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "MATKHAU", true));
-            this.txt_MK.Location = new System.Drawing.Point(378, 72);
-            this.txt_MK.Name = "txt_MK";
-            this.txt_MK.Size = new System.Drawing.Size(209, 20);
-            this.txt_MK.TabIndex = 19;
-            // 
-            // hOATDONGLabel
-            // 
-            hOATDONGLabel.AutoSize = true;
-            hOATDONGLabel.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            hOATDONGLabel.Location = new System.Drawing.Point(267, 99);
-            hOATDONGLabel.Name = "hOATDONGLabel";
-            hOATDONGLabel.Size = new System.Drawing.Size(75, 16);
-            hOATDONGLabel.TabIndex = 20;
-            hOATDONGLabel.Text = "Hoạt động";
-            // 
-            // hd_check
-            // 
-            this.hd_check.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.qL_NGUOI_DUNGBindingSource, "HOATDONG", true));
-            this.hd_check.Location = new System.Drawing.Point(378, 98);
-            this.hd_check.Name = "hd_check";
-            this.hd_check.Properties.Caption = "checkEdit1";
-            this.hd_check.Size = new System.Drawing.Size(209, 19);
-            this.hd_check.TabIndex = 21;
-            // 
-            // qL_NGUOI_DUNGGridControl
-            // 
-            this.qL_NGUOI_DUNGGridControl.DataSource = this.qL_NGUOI_DUNGBindingSource;
-            this.qL_NGUOI_DUNGGridControl.Location = new System.Drawing.Point(12, 152);
-            this.qL_NGUOI_DUNGGridControl.MainView = this.gridView1;
-            this.qL_NGUOI_DUNGGridControl.Name = "qL_NGUOI_DUNGGridControl";
-            this.qL_NGUOI_DUNGGridControl.Size = new System.Drawing.Size(665, 285);
-            this.qL_NGUOI_DUNGGridControl.TabIndex = 21;
-            this.qL_NGUOI_DUNGGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.qL_NGUOI_DUNGGridControl;
-            this.gridView1.Name = "gridView1";
-            // 
             // frm_QL_NguoiDung
             // 
-            this.ClientSize = new System.Drawing.Size(959, 493);
+            this.ClientSize = new System.Drawing.Size(1118, 493);
             this.Controls.Add(this.qL_NGUOI_DUNGBindingNavigator);
             this.Controls.Add(this.groupBox1);
             this.Name = "frm_QL_NguoiDung";
@@ -353,16 +419,16 @@ namespace QuanLyThuChi
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTC_DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGGridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingNavigator)).EndInit();
-            this.qL_NGUOI_DUNGBindingNavigator.ResumeLayout(false);
-            this.qL_NGUOI_DUNGBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTC_DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_tenDN.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_MK.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hd_check.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qL_NGUOI_DUNGBindingNavigator)).EndInit();
+            this.qL_NGUOI_DUNGBindingNavigator.ResumeLayout(false);
+            this.qL_NGUOI_DUNGBindingNavigator.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,7 +446,90 @@ namespace QuanLyThuChi
         {
             // TODO: This line of code loads data into the 'qLTC_DataSet.QL_NGUOI_DUNG' table. You can move, or remove it, as needed.
             this.qL_NGUOI_DUNGTableAdapter.Fill(this.qLTC_DataSet.QL_NGUOI_DUNG);
+            
+            btn_Luu.Enabled = false;
+
 
         }
+
+        private void btn_them_Click(object sender, EventArgs e)
+        {
+            txt_tenDN.Enabled = true;
+            txt_MK.Enabled = true;
+            btn_them.Enabled = false;
+            btn_Luu.Enabled = true;
+            txt_tenDN.Focus();
+            txt_tenDN.Text = string.Empty;
+            txt_MK.Text = string.Empty;
+
+
+
+        }
+
+        private void btn_Luu_Click(object sender, EventArgs e)
+        {
+
+
+            try
+            {
+                string mk = txt_MK.Text;
+                bool hoatdong = hd_check.Checked ? true : false;
+                if (qL_NGUOI_DUNGTableAdapter.KT_KHoaChinh(txt_tenDN.Text) == 0)
+                {
+                    qL_NGUOI_DUNGTableAdapter.Insert(txt_tenDN.Text, txt_MK.Text, hoatdong);
+                    this.qL_NGUOI_DUNGTableAdapter.Fill(this.qLTC_DataSet.QL_NGUOI_DUNG);
+                    btn_them.Enabled = true;
+                    txt_tenDN.Enabled = false;
+                    txt_MK.Enabled = false;
+                    btn_Luu.Enabled = false;
+                    MessageBox.Show("Thêm người dùng thành công!");
+                    txt_tenDN.Text = string.Empty;
+                    txt_MK.Text = string.Empty;
+
+                    //qL_NGUOI_DUNGGridControl.DataSource = qL_NGUOI_DUNGTableAdapter.GetData();
+                }
+                else
+                {
+                    MessageBox.Show("Người dùng đã tồn tại!!");
+                    txt_tenDN.Text = string.Empty;
+                    txt_tenDN.Focus();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Không thể thêm người dùng mới!!!! ");
+            }
+
+        }
+
+        private void btn_xoa_Click(object sender, EventArgs e)
+        {
+            DialogResult r = MessageBox.Show("Bạn có muốn xóa!", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);
+            try
+            {
+                if (r == DialogResult.Yes)
+                {
+                    bool hoatdong = hd_check.Checked ? true : false;
+                    qL_NGUOI_DUNGTableAdapter.Delete(txt_tenDN.Text, txt_MK.Text, hoatdong);
+                    this.qL_NGUOI_DUNGTableAdapter.Fill(this.qLTC_DataSet.QL_NGUOI_DUNG);
+                }
+            }
+            catch
+            {
+                XtraMessageBox.Show("Tài khoản đang được sử dụng");
+            }
+
+        }
+
+        private void btn_sua_Click(object sender, EventArgs e)
+        {
+            
+            btn_Luu.Enabled = true;
+            bool hoatdong = hd_check.Checked ? true : false;
+            qL_NGUOI_DUNGTableAdapter.UpdateQuery(txt_tenDN.Text, txt_MK.Text, hoatdong,txt_tenDN.Text);
+            this.qL_NGUOI_DUNGTableAdapter.Fill(this.qLTC_DataSet.QL_NGUOI_DUNG);
+        }
+
+        
     }
 }

@@ -97,7 +97,7 @@
             this.simpleButton2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Bottom;
             this.simpleButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.simpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.Technical_Support_512__1_;
+            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.edittttt;
             this.simpleButton2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
             this.simpleButton2.Location = new System.Drawing.Point(89, 13);
             this.simpleButton2.LookAndFeel.SkinName = "Seven Classic";
